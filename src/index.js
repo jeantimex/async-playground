@@ -103,7 +103,7 @@ async.waterfall(
   ],
   // optional callback
   (err, results) => {
-    // results
+    // the final results contain the pagination info and a list of policy details
     console.log(results);
   }
 );
